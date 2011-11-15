@@ -1,0 +1,5 @@
+*.pbxproj -crlf -diff -merge
+*.xcodeproj -diff
+*.xcodeproj/* -diff
+*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/UserInterfaceState.xcuserstate -diff
+xcuserdata -diff

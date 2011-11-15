@@ -1,0 +1,13 @@
+<Textures>
+  <TextureSheet name="robot">
+    <Texture name="head" width="110" height="101" path="robot_head.png" registrationPointX="15.00" registrationPointY="62.00" zIndex="8"/>
+    <Texture name="hand1" width="39" height="51" path="robot_hand1.png" registrationPointX="19.00" registrationPointY="10.00" zIndex="7"/>
+    <Texture name="forearm1" width="29" height="72" path="robot_forearm1.png" registrationPointX="15.00" registrationPointY="10.00" zIndex="6"/>
+    <Texture name="arm1" width="29" height="83" path="robot_arm1.png" registrationPointX="14.00" registrationPointY="14.00" zIndex="5"/>
+    <Texture name="neck2" width="34" height="64" path="robot_neck2.png" registrationPointX="19.00" registrationPointY="50.00" zIndex="4"/>
+    <Texture name="neck1" width="26" height="57" path="robot_neck1.png" registrationPointX="13.00" registrationPointY="45.00" zIndex="3"/>
+    <Texture name="legs" width="29" height="72" path="robot_legs.png" registrationPointX="15.00" registrationPointY="10.00" zIndex="2"/>
+    <Texture name="body" width="75" height="113" path="robot_body.png" registrationPointX="0.00" registrationPointY="-1.00" zIndex="1"/>
+    <Texture name="wheel" width="78" height="77" path="robot_wheel.png" registrationPointX="39.00" registrationPointY="38.00"/>
+  </TextureSheet>
+</Textures>

@@ -1,0 +1,388 @@
+<Animations>
+  <Animation name="anim1" frameCount="40">
+      
+    <Events>
+        <event type="walk"  index="0" />
+        <event type="stop"  index="30" />
+    </Events>
+      
+    <Part name="arm1">
+      <Frame x="-8.9" y="-61.9" rotation="-51.93" index="0"/>
+      <Frame x="-9.0" y="-62.0" rotation="-47.40" index="1"/>
+      <Frame x="-9.2" y="-62.3" rotation="-42.86" index="2"/>
+      <Frame x="-9.3" y="-62.5" rotation="-38.33" index="3"/>
+      <Frame x="-9.3" y="-62.8" rotation="-33.82" index="4"/>
+      <Frame x="-9.4" y="-63.0" rotation="-29.29" index="5"/>
+      <Frame x="-9.4" y="-63.3" rotation="-24.75" index="6"/>
+      <Frame x="-9.6" y="-63.5" rotation="-20.24" index="7"/>
+      <Frame x="-9.7" y="-63.8" rotation="-15.71" index="8"/>
+      <Frame x="-9.4" y="-63.8" rotation="-13.05" index="9"/>
+      <Frame x="-9.3" y="-63.9" rotation="-10.44" index="10"/>
+      <Frame x="-9.2" y="-63.8" rotation="-7.84" index="11"/>
+      <Frame x="-9.1" y="-63.9" rotation="-5.21" index="12"/>
+      <Frame x="-8.9" y="-63.9" rotation="-2.59" index="13"/>
+      <Frame x="-8.8" y="-63.8" rotation="0.03" index="14"/>
+      <Frame x="-8.6" y="-63.9" rotation="2.68" index="15"/>
+      <Frame x="-8.4" y="-63.9" rotation="5.27" index="16"/>
+      <Frame x="-8.3" y="-64.0" rotation="7.91" index="17"/>
+      <Frame x="-8.2" y="-63.9" rotation="10.52" index="18"/>
+      <Frame x="-8.4" y="-64.2" rotation="13.15" index="19"/>
+      <Frame x="-8.8" y="-64.5" rotation="15.78" index="20"/>
+      <Frame x="-9.1" y="-64.8" rotation="18.38" index="21"/>
+      <Frame x="-9.2" y="-64.7" rotation="14.48" index="22"/>
+      <Frame x="-9.3" y="-64.5" rotation="10.56" index="23"/>
+      <Frame x="-9.3" y="-64.4" rotation="6.66" index="24"/>
+      <Frame x="-9.4" y="-64.3" rotation="2.75" index="25"/>
+      <Frame x="-9.5" y="-64.2" rotation="-1.16" index="26"/>
+      <Frame x="-9.5" y="-64.1" rotation="-5.07" index="27"/>
+      <Frame x="-9.6" y="-63.9" rotation="-8.97" index="28"/>
+      <Frame x="-9.6" y="-63.8" rotation="-12.88" index="29"/>
+      <Frame x="-9.6" y="-63.5" rotation="-16.79" index="30"/>
+      <Frame x="-9.6" y="-63.5" rotation="-20.69" index="31"/>
+      <Frame x="-9.6" y="-63.4" rotation="-24.59" index="32"/>
+      <Frame x="-9.6" y="-63.3" rotation="-28.51" index="33"/>
+      <Frame x="-9.6" y="-63.2" rotation="-32.40" index="34"/>
+      <Frame x="-9.6" y="-63.0" rotation="-36.32" index="35"/>
+      <Frame x="-9.6" y="-62.9" rotation="-40.23" index="36"/>
+      <Frame x="-9.5" y="-62.8" rotation="-44.13" index="37"/>
+      <Frame x="-9.6" y="-62.5" rotation="-48.04" index="38"/>
+      <Frame x="-9.4" y="-62.5" rotation="-51.95" index="39"/>
+    </Part>
+    <Part name="body">
+      <Frame x="-30.0" y="-88.0" index="0"/>
+      <Frame x="-30.1" y="-88.0" index="1"/>
+      <Frame x="-30.1" y="-88.0" index="2"/>
+      <Frame x="-30.3" y="-88.0" index="3"/>
+      <Frame x="-30.3" y="-88.0" index="4"/>
+      <Frame x="-30.4" y="-88.1" index="5"/>
+      <Frame x="-30.4" y="-88.1" index="6"/>
+      <Frame x="-30.6" y="-88.1" index="7"/>
+      <Frame x="-30.6" y="-88.1" index="8"/>
+      <Frame x="-30.6" y="-88.1" index="9"/>
+      <Frame x="-30.5" y="-88.1" index="10"/>
+      <Frame x="-30.4" y="-88.1" index="11"/>
+      <Frame x="-30.4" y="-88.1" index="12"/>
+      <Frame x="-30.3" y="-88.0" index="13"/>
+      <Frame x="-30.3" y="-88.0" index="14"/>
+      <Frame x="-30.2" y="-88.0" index="15"/>
+      <Frame x="-30.1" y="-88.0" index="16"/>
+      <Frame x="-30.1" y="-88.0" index="17"/>
+      <Frame x="-30.0" y="-88.0" index="18"/>
+      <Frame x="-30.2" y="-88.0" index="19"/>
+      <Frame x="-30.4" y="-88.1" index="20"/>
+      <Frame x="-30.6" y="-88.1" index="21"/>
+      <Frame x="-30.6" y="-88.1" index="22"/>
+      <Frame x="-30.6" y="-88.1" index="23"/>
+      <Frame x="-30.6" y="-88.1" index="24"/>
+      <Frame x="-30.6" y="-88.1" index="25"/>
+      <Frame x="-30.6" y="-88.1" index="26"/>
+      <Frame x="-30.6" y="-88.1" index="27"/>
+      <Frame x="-30.6" y="-88.1" index="28"/>
+      <Frame x="-30.6" y="-88.1" index="29"/>
+      <Frame x="-30.6" y="-88.1" index="30"/>
+      <Frame x="-30.6" y="-88.1" index="31"/>
+      <Frame x="-30.6" y="-88.1" index="32"/>
+      <Frame x="-30.6" y="-88.1" index="33"/>
+      <Frame x="-30.6" y="-88.1" index="34"/>
+      <Frame x="-30.6" y="-88.1" index="35"/>
+      <Frame x="-30.6" y="-88.1" index="36"/>
+      <Frame x="-30.6" y="-88.1" index="37"/>
+      <Frame x="-30.6" y="-88.1" index="38"/>
+      <Frame x="-30.6" y="-88.1" index="39"/>
+    </Part>
+    <Part name="forearm1">
+      <Frame x="38.8" y="-28.6" rotation="-116.47" index="0"/>
+      <Frame x="36.0" y="-24.9" rotation="-109.72" index="1"/>
+      <Frame x="33.0" y="-21.6" rotation="-102.96" index="2"/>
+      <Frame x="29.6" y="-18.4" rotation="-96.20" index="3"/>
+      <Frame x="26.1" y="-15.7" rotation="-89.48" index="4"/>
+      <Frame x="22.3" y="-13.1" rotation="-82.72" index="5"/>
+      <Frame x="18.2" y="-10.7" rotation="-75.97" index="6"/>
+      <Frame x="14.0" y="-8.7" rotation="-69.23" index="7"/>
+      <Frame x="9.6" y="-7.0" rotation="-62.49" index="8"/>
+      <Frame x="7.0" y="-6.5" rotation="-64.14" index="9"/>
+      <Frame x="4.3" y="-6.0" rotation="-65.84" index="10"/>
+      <Frame x="1.6" y="-5.7" rotation="-67.55" index="11"/>
+      <Frame x="-1.1" y="-5.5" rotation="-69.24" index="12"/>
+      <Frame x="-3.8" y="-5.4" rotation="-70.93" index="13"/>
+      <Frame x="-6.5" y="-5.5" rotation="-72.63" index="14"/>
+      <Frame x="-9.2" y="-5.7" rotation="-74.29" index="15"/>
+      <Frame x="-11.9" y="-5.9" rotation="-76.01" index="16"/>
+      <Frame x="-14.6" y="-6.3" rotation="-77.68" index="17"/>
+      <Frame x="-17.2" y="-6.9" rotation="-79.39" index="18"/>
+      <Frame x="-20.1" y="-7.6" rotation="-81.06" index="19"/>
+      <Frame x="-22.8" y="-8.4" rotation="-82.74" index="20"/>
+      <Frame x="-25.6" y="-9.3" rotation="-84.46" index="21"/>
+      <Frame x="-21.8" y="-8.1" rotation="-86.23" index="22"/>
+      <Frame x="-17.9" y="-7.3" rotation="-88.02" index="23"/>
+      <Frame x="-13.9" y="-6.5" rotation="-89.79" index="24"/>
+      <Frame x="-9.9" y="-6.3" rotation="-91.58" index="25"/>
+      <Frame x="-6.0" y="-6.2" rotation="-93.35" index="26"/>
+      <Frame x="-2.0" y="-6.4" rotation="-95.13" index="27"/>
+      <Frame x="1.9" y="-6.8" rotation="-96.91" index="28"/>
+      <Frame x="5.8" y="-7.5" rotation="-98.69" index="29"/>
+      <Frame x="9.7" y="-8.6" rotation="-100.47" index="30"/>
+      <Frame x="13.3" y="-9.8" rotation="-102.24" index="31"/>
+      <Frame x="17.1" y="-11.4" rotation="-104.02" index="32"/>
+      <Frame x="20.6" y="-13.2" rotation="-105.81" index="33"/>
+      <Frame x="24.1" y="-15.2" rotation="-107.58" index="34"/>
+      <Frame x="27.4" y="-17.4" rotation="-109.37" index="35"/>
+      <Frame x="30.5" y="-19.9" rotation="-111.14" index="36"/>
+      <Frame x="33.5" y="-22.6" rotation="-112.92" index="37"/>
+      <Frame x="36.3" y="-25.4" rotation="-114.70" index="38"/>
+      <Frame x="38.8" y="-28.5" rotation="-116.48" index="39"/>
+    </Part>
+    <Part name="hand1">
+      <Frame x="86.0" y="-50.9" rotation="-105.80" index="0"/>
+      <Frame x="85.5" y="-41.7" rotation="-99.78" index="1"/>
+      <Frame x="84.1" y="-32.5" rotation="-93.75" index="2"/>
+      <Frame x="81.8" y="-23.2" rotation="-87.72" index="3"/>
+      <Frame x="78.3" y="-14.2" rotation="-81.72" index="4"/>
+      <Frame x="74.0" y="-5.5" rotation="-75.69" index="5"/>
+      <Frame x="68.7" y="2.9" rotation="-69.66" index="6"/>
+      <Frame x="62.5" y="10.7" rotation="-63.66" index="7"/>
+      <Frame x="55.5" y="17.9" rotation="-57.63" index="8"/>
+      <Frame x="53.5" y="17.1" rotation="-59.90" index="9"/>
+      <Frame x="51.5" y="16.3" rotation="-62.20" index="10"/>
+      <Frame x="49.5" y="15.2" rotation="-64.52" index="11"/>
+      <Frame x="47.3" y="13.9" rotation="-66.81" index="12"/>
+      <Frame x="45.1" y="12.7" rotation="-69.11" index="13"/>
+      <Frame x="42.9" y="11.2" rotation="-71.41" index="14"/>
+      <Frame x="40.6" y="9.6" rotation="-73.68" index="15"/>
+      <Frame x="38.5" y="7.8" rotation="-76.00" index="16"/>
+      <Frame x="36.0" y="5.8" rotation="-78.29" index="17"/>
+      <Frame x="33.8" y="3.8" rotation="-80.60" index="18"/>
+      <Frame x="31.3" y="1.6" rotation="-82.88" index="19"/>
+      <Frame x="28.8" y="-0.8" rotation="-85.17" index="20"/>
+      <Frame x="26.3" y="-3.1" rotation="-87.49" index="21"/>
+      <Frame x="30.3" y="-3.6" rotation="-88.50" index="22"/>
+      <Frame x="34.1" y="-4.3" rotation="-89.53" index="23"/>
+      <Frame x="38.1" y="-5.3" rotation="-90.55" index="24"/>
+      <Frame x="42.1" y="-6.7" rotation="-91.57" index="25"/>
+      <Frame x="46.0" y="-8.3" rotation="-92.58" index="26"/>
+      <Frame x="50.0" y="-10.1" rotation="-93.60" index="27"/>
+      <Frame x="53.8" y="-12.1" rotation="-94.62" index="28"/>
+      <Frame x="57.5" y="-14.6" rotation="-95.64" index="29"/>
+      <Frame x="61.1" y="-17.1" rotation="-96.66" index="30"/>
+      <Frame x="64.7" y="-20.0" rotation="-97.67" index="31"/>
+      <Frame x="68.0" y="-23.1" rotation="-98.68" index="32"/>
+      <Frame x="71.1" y="-26.5" rotation="-99.71" index="33"/>
+      <Frame x="74.1" y="-30.1" rotation="-100.72" index="34"/>
+      <Frame x="77.0" y="-33.9" rotation="-101.75" index="35"/>
+      <Frame x="79.5" y="-37.9" rotation="-102.76" index="36"/>
+      <Frame x="82.0" y="-42.0" rotation="-103.78" index="37"/>
+      <Frame x="84.0" y="-46.5" rotation="-104.80" index="38"/>
+      <Frame x="86.0" y="-51.0" rotation="-105.82" index="39"/>
+    </Part>
+    <Part name="head">
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="0"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="1"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="2"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="3"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="4"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="5"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="6"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="7"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="8"/>
+      <Frame x="53.7" y="-127.8" rotation="11.24" index="9"/>
+      <Frame x="58.1" y="-123.5" rotation="10.47" index="10"/>
+      <Frame x="62.1" y="-118.9" rotation="9.70" index="11"/>
+      <Frame x="65.8" y="-113.9" rotation="8.92" index="12"/>
+      <Frame x="68.9" y="-108.5" rotation="8.15" index="13"/>
+      <Frame x="71.5" y="-102.9" rotation="7.38" index="14"/>
+      <Frame x="73.8" y="-97.0" rotation="6.60" index="15"/>
+      <Frame x="75.4" y="-91.0" rotation="5.83" index="16"/>
+      <Frame x="76.5" y="-84.8" rotation="5.06" index="17"/>
+      <Frame x="77.2" y="-78.5" rotation="4.28" index="18"/>
+      <Frame x="73.1" y="-99.0" rotation="6.86" index="19"/>
+      <Frame x="63.4" y="-117.2" rotation="9.44" index="20"/>
+      <Frame x="48.9" y="-131.6" rotation="12.02" index="21"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="22"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="23"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="24"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="25"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="26"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="27"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="28"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="29"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="30"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="31"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="32"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="33"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="34"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="35"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="36"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="37"/>
+      <Frame x="49.0" y="-131.6" rotation="12.02" index="38"/>
+      <Frame x="49.0" y="-131.7" rotation="12.02" index="39"/>
+    </Part>
+    <Part name="legs">
+      <Frame x="0.9" y="16.9" rotation="2.41" index="0"/>
+      <Frame x="0.9" y="17.1" rotation="2.76" index="1"/>
+      <Frame x="0.9" y="17.4" rotation="2.73" index="2"/>
+      <Frame x="1.0" y="17.6" rotation="2.70" index="3"/>
+      <Frame x="1.1" y="17.8" rotation="2.67" index="4"/>
+      <Frame x="1.1" y="18.0" rotation="2.64" index="5"/>
+      <Frame x="1.1" y="18.2" rotation="2.61" index="6"/>
+      <Frame x="1.2" y="18.4" rotation="2.58" index="7"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="8"/>
+      <Frame x="1.2" y="18.5" rotation="4.86" index="9"/>
+      <Frame x="1.0" y="18.4" rotation="7.28" index="10"/>
+      <Frame x="0.9" y="18.3" rotation="9.47" index="11"/>
+      <Frame x="0.8" y="18.1" rotation="12.02" index="12"/>
+      <Frame x="0.7" y="18.1" rotation="14.09" index="13"/>
+      <Frame x="0.5" y="18.1" rotation="16.53" index="14"/>
+      <Frame x="0.4" y="17.9" rotation="18.83" index="15"/>
+      <Frame x="0.3" y="17.9" rotation="21.02" index="16"/>
+      <Frame x="0.3" y="17.7" rotation="23.33" index="17"/>
+      <Frame x="0.1" y="17.6" rotation="25.64" index="18"/>
+      <Frame x="0.4" y="17.9" rotation="18.25" index="19"/>
+      <Frame x="0.8" y="18.3" rotation="10.30" index="20"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="21"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="22"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="23"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="24"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="25"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="26"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="27"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="28"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="29"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="30"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="31"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="32"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="33"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="34"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="35"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="36"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="37"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="38"/>
+      <Frame x="1.3" y="18.6" rotation="2.55" index="39"/>
+    </Part>
+    <Part name="neck1">
+      <Frame x="5.0" y="-77.0" rotation="16.90" index="0"/>
+      <Frame x="5.0" y="-77.0" rotation="16.89" index="1"/>
+      <Frame x="5.0" y="-77.0" rotation="16.89" index="2"/>
+      <Frame x="5.0" y="-77.0" rotation="16.89" index="3"/>
+      <Frame x="5.1" y="-77.0" rotation="16.89" index="4"/>
+      <Frame x="5.2" y="-77.0" rotation="16.89" index="5"/>
+      <Frame x="5.2" y="-77.0" rotation="16.89" index="6"/>
+      <Frame x="5.3" y="-77.0" rotation="16.89" index="7"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="8"/>
+      <Frame x="5.3" y="-77.0" rotation="22.50" index="9"/>
+      <Frame x="5.3" y="-77.0" rotation="28.10" index="10"/>
+      <Frame x="5.3" y="-77.0" rotation="33.70" index="11"/>
+      <Frame x="5.2" y="-77.0" rotation="39.30" index="12"/>
+      <Frame x="5.2" y="-77.0" rotation="44.89" index="13"/>
+      <Frame x="5.2" y="-77.0" rotation="50.50" index="14"/>
+      <Frame x="5.0" y="-77.0" rotation="56.10" index="15"/>
+      <Frame x="5.0" y="-77.0" rotation="61.70" index="16"/>
+      <Frame x="5.0" y="-77.0" rotation="67.30" index="17"/>
+      <Frame x="5.0" y="-77.0" rotation="72.90" index="18"/>
+      <Frame x="5.2" y="-77.0" rotation="54.23" index="19"/>
+      <Frame x="5.3" y="-77.0" rotation="35.57" index="20"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="21"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="22"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="23"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="24"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="25"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="26"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="27"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="28"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="29"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="30"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="31"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="32"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="33"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="34"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="35"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="36"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="37"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="38"/>
+      <Frame x="5.3" y="-77.0" rotation="16.90" index="39"/>
+    </Part>
+    <Part name="neck2">
+      <Frame x="17.7" y="-113.3" rotation="61.23" index="0"/>
+      <Frame x="17.8" y="-113.3" rotation="61.23" index="1"/>
+      <Frame x="17.8" y="-113.3" rotation="61.23" index="2"/>
+      <Frame x="17.8" y="-113.3" rotation="61.23" index="3"/>
+      <Frame x="17.8" y="-113.3" rotation="61.23" index="4"/>
+      <Frame x="17.8" y="-113.3" rotation="61.23" index="5"/>
+      <Frame x="17.8" y="-113.3" rotation="61.23" index="6"/>
+      <Frame x="17.8" y="-113.3" rotation="61.23" index="7"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="8"/>
+      <Frame x="21.3" y="-112.0" rotation="65.63" index="9"/>
+      <Frame x="24.6" y="-110.3" rotation="70.03" index="10"/>
+      <Frame x="27.8" y="-108.3" rotation="74.43" index="11"/>
+      <Frame x="30.6" y="-106.0" rotation="78.84" index="12"/>
+      <Frame x="33.3" y="-103.3" rotation="83.24" index="13"/>
+      <Frame x="35.7" y="-100.5" rotation="87.64" index="14"/>
+      <Frame x="37.9" y="-97.4" rotation="92.04" index="15"/>
+      <Frame x="39.6" y="-94.1" rotation="96.44" index="16"/>
+      <Frame x="41.2" y="-90.6" rotation="100.84" index="17"/>
+      <Frame x="42.4" y="-87.0" rotation="105.24" index="18"/>
+      <Frame x="37.1" y="-98.5" rotation="90.57" index="19"/>
+      <Frame x="28.6" y="-107.5" rotation="75.90" index="20"/>
+      <Frame x="17.7" y="-113.3" rotation="61.23" index="21"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="22"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="23"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="24"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="25"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="26"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="27"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="28"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="29"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="30"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="31"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="32"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="33"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="34"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="35"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="36"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="37"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="38"/>
+      <Frame x="17.8" y="-113.4" rotation="61.23" index="39"/>
+    </Part>
+    <Part name="wheel">
+      <Frame x="-0.1" y="65.4" rotation="121.84" index="0"/>
+      <Frame x="-0.5" y="65.5" rotation="122.19" index="1"/>
+      <Frame x="-0.5" y="65.5" rotation="122.16" index="2"/>
+      <Frame x="-0.5" y="65.6" rotation="122.13" index="3"/>
+      <Frame x="-0.5" y="65.8" rotation="122.10" index="4"/>
+      <Frame x="-0.5" y="65.8" rotation="122.07" index="5"/>
+      <Frame x="-0.5" y="65.9" rotation="122.04" index="6"/>
+      <Frame x="-0.4" y="66.0" rotation="122.00" index="7"/>
+      <Frame x="-0.3" y="66.2" rotation="121.97" index="8"/>
+      <Frame x="-2.3" y="66.0" rotation="124.28" index="9"/>
+      <Frame x="-4.3" y="65.7" rotation="126.71" index="10"/>
+      <Frame x="-6.0" y="65.3" rotation="128.90" index="11"/>
+      <Frame x="-8.1" y="64.9" rotation="131.45" index="12"/>
+      <Frame x="-9.8" y="64.5" rotation="133.52" index="13"/>
+      <Frame x="-11.8" y="63.9" rotation="135.96" index="14"/>
+      <Frame x="-13.6" y="63.3" rotation="138.25" index="15"/>
+      <Frame x="-15.2" y="62.7" rotation="140.44" index="16"/>
+      <Frame x="-17.0" y="62.0" rotation="142.75" index="17"/>
+      <Frame x="-18.8" y="61.1" rotation="145.06" index="18"/>
+      <Frame x="-13.1" y="63.5" rotation="137.68" index="19"/>
+      <Frame x="-6.7" y="65.3" rotation="129.72" index="20"/>
+      <Frame x="-0.3" y="66.2" rotation="121.97" index="21"/>
+      <Frame x="-0.3" y="66.2" rotation="121.97" index="22"/>
+      <Frame x="-0.3" y="66.2" rotation="121.97" index="23"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="24"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="25"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="26"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="27"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="28"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="29"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="30"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="31"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="32"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="33"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="34"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="35"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="36"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="37"/>
+      <Frame x="-0.3" y="66.2" rotation="121.98" index="38"/>
+      <Frame x="-0.3" y="66.2" rotation="121.97" index="39"/>
+    </Part>
+  </Animation>
+</Animations>

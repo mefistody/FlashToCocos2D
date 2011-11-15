@@ -1,0 +1,24 @@
+<Textures>
+  <TextureSheet name="turtle_tp">
+    <Texture name="shell" width="345" height="379" path="turtle_shell.png" registrationPointX="172.00" registrationPointY="329.00" zIndex="22"/>
+    <Texture name="head" width="71" height="119" path="turtle_head.png" registrationPointX="42.00" registrationPointY="100.00" zIndex="20"/>
+    <Texture name="neck" width="107" height="64" path="turtle_neck.png" registrationPointX="92.00" registrationPointY="43.00" zIndex="19"/>
+    <Texture name="ghost_foot_1" width="28" height="28" path="turtle_ghost_foot_1.png" registrationPointX="14.00" registrationPointY="14.00" zIndex="17"/>
+    <Texture name="ghost_foot_2" width="28" height="28" path="turtle_ghost_foot_2.png" registrationPointX="14.00" registrationPointY="14.00" zIndex="16"/>
+    <Texture name="ghost_foot_3" width="28" height="28" path="turtle_ghost_foot_3.png" registrationPointX="14.00" registrationPointY="14.00" zIndex="15"/>
+    <Texture name="ghost_foot_4" width="28" height="28" path="turtle_ghost_foot_4.png" registrationPointX="14.00" registrationPointY="14.00" zIndex="14"/>
+    <Texture name="ghost_05" width="46" height="28" path="turtle_ghost_05.png" registrationPointX="23.00" registrationPointY="14.00" zIndex="13"/>
+    <Texture name="foot_f_l" width="65" height="82" path="turtle_foot_f_l.png" registrationPointX="29.00" registrationPointY="23.00" zIndex="11"/>
+    <Texture name="leg_f_l" width="57" height="112" path="turtle_leg_f_l.png" registrationPointX="27.00" registrationPointY="21.00" zIndex="10"/>
+    <Texture name="foot_b_l" width="65" height="82" path="turtle_foot_b_l.png" registrationPointX="29.00" registrationPointY="23.00" zIndex="9"/>
+    <Texture name="leg_b_l" width="57" height="112" path="turtle_leg_b_l.png" registrationPointX="27.00" registrationPointY="21.00" zIndex="8"/>
+    <Texture name="ghost_02" width="46" height="28" path="turtle_ghost_02.png" registrationPointX="23.00" registrationPointY="14.00" zIndex="7"/>
+    <Texture name="ghost_03" width="46" height="28" path="turtle_ghost_03.png" registrationPointX="23.00" registrationPointY="14.00" zIndex="6"/>
+    <Texture name="ghost_04" width="46" height="28" path="turtle_ghost_04.png" registrationPointX="23.00" registrationPointY="14.00" zIndex="5"/>
+    <Texture name="ghost_01" width="46" height="28" path="turtle_ghost_01.png" registrationPointX="23.00" registrationPointY="14.00" zIndex="4"/>
+    <Texture name="foot_f_r" width="65" height="82" path="turtle_foot_f_r.png" registrationPointX="29.00" registrationPointY="23.00" zIndex="3"/>
+    <Texture name="leg_f_r" width="57" height="112" path="turtle_leg_f_r.png" registrationPointX="27.00" registrationPointY="21.00" zIndex="2"/>
+    <Texture name="foot_b_r" width="65" height="82" path="turtle_foot_b_r.png" registrationPointX="29.00" registrationPointY="23.00" zIndex="1"/>
+    <Texture name="leg_b_r" width="57" height="112" path="turtle_leg_b_r.png" registrationPointX="27.00" registrationPointY="21.00"/>
+  </TextureSheet>
+</Textures>
