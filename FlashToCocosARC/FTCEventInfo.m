@@ -12,10 +12,5 @@
 
 @synthesize eventType, frameIndex;
 
--(void) dealloc
-{
-    eventType = nil;
-    
-}
 
 @end

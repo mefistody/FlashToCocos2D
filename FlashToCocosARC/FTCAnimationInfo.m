@@ -12,11 +12,6 @@
 
 @synthesize name, frameInfoArray, partName;
 
--(void) dealloc
-{
-    name = nil;
-    frameInfoArray = nil;
-    partName = nil;
-}
+
 
 @end

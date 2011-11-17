@@ -22,6 +22,8 @@
 @property (strong) NSString              *name;
 @property (unsafe_unretained) BOOL       ignoreRotation;
 @property (unsafe_unretained) BOOL       ignorePosition;
+@property (unsafe_unretained) BOOL       ignoreScale;
+
 @property (strong) NSMutableDictionary   *animationsArr;
 
 

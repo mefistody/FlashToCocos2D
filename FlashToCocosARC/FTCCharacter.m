@@ -126,7 +126,7 @@
     NSString *oldAnimId = currentAnimationId;
     currentAnimationId = @"";
     
-    NSLog(@"STOP Animation - CurrentAnimLength %i", currentAnimationLength);
+//    NSLog(@"STOP Animation - CurrentAnimLength %i", currentAnimationLength);
     
     if ([delegate respondsToSelector:@selector(onCharacter:endsAnimation:)])
         [delegate onCharacter:self endsAnimation:oldAnimId];
@@ -161,7 +161,7 @@
     currentAnimEvent = [[self.animationEventsTable objectForKey:_animId] eventsInfo];
     currentAnimationLength = [[self.animationEventsTable objectForKey:_animId] frameCount];
     
-    NSLog(@"PLAY ANIMATION - %@ CurrentAnimLength %i", _animId, currentAnimationLength);
+//    NSLog(@"PLAY ANIMATION - %@ CurrentAnimLength %i", _animId, currentAnimationLength);
     
     if ([delegate respondsToSelector:@selector(onCharacter:startsAnimation:)])
         [delegate onCharacter:self startsAnimation:_animId];
@@ -215,7 +215,7 @@
 
 -(void) createCharacterFromXML:(NSString *)_xmlfile
 {
-    NSLog(@"Creating FTCharacter");
+//    NSLog(@"Creating FTCharacter");
     
     BOOL success = [[[FTCParser alloc] init] parseXML:_xmlfile toCharacter:self];
     if (!success) {
@@ -232,18 +232,6 @@
     if ([self.delegate respondsToSelector:@selector(onCharacterCreated:)])
         [self.delegate onCharacterCreated:self];
     
-//    if ([self.animationEventsTable count]==0) return;
-//    
-//    NSDictionary *partsAnimation = [[self.animationsTable allValues] objectAtIndex:0];
-//    
-//    for (NSString *partName in partsAnimation) {
-//        
-//        FTCSprite *spr      = [self getChildByName:partName];
-//        FTCFrameInfo *frInfo    = (FTCFrameInfo *)[[partsAnimation objectForKey:partName] objectAtIndex:0];
-//        
-//        [spr applyFrameInfo:frInfo];
-//
-//    }
 }
 
 

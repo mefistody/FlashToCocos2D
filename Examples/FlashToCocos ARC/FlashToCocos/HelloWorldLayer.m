@@ -35,7 +35,7 @@
         [self addChild:menu];
         
         CCTurtle *_turt = [[CCTurtle alloc] init];
-        [_turt setPosition:ccp(300, 200)];
+        [_turt setPosition:ccp(300, 100)];
         [self addChild:_turt];
         
         turtle = _turt;
@@ -48,17 +48,17 @@
 
 -(void) toggleTurtle
 {
-    if ([[turtle getCurrentAnimation] isEqualToString:@"walk"]) {
-        [toggleLab setString:@"WALK"];
-        [turtle playAnimation:@"walk_out" loop:NO wait:YES];
-    }
-    
-    
-    if ([[turtle getCurrentAnimation] isEqualToString:@"walk_out"] || [[turtle getCurrentAnimation] isEqualToString:@""]) {
-        [toggleLab setString:@"STOP"];
-        [turtle playAnimation:@"walk_in" loop:NO wait:NO];
-        [turtle playAnimation:@"walk" loop:YES wait:YES];
-    }
+//    if ([[turtle getCurrentAnimation] isEqualToString:@"walk"]) {
+//        [toggleLab setString:@"WALK"];
+//        [turtle playAnimation:@"walk_out" loop:NO wait:YES];
+//    }
+//    
+//    
+//    if ([[turtle getCurrentAnimation] isEqualToString:@"walk_out"] || [[turtle getCurrentAnimation] isEqualToString:@""]) {
+//        [toggleLab setString:@"STOP"];
+//        [turtle playAnimation:@"walk_in" loop:NO wait:NO];
+//        [turtle playAnimation:@"walk" loop:YES wait:YES];
+//    }
 }
 
 

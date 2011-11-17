@@ -41,7 +41,6 @@
 {
     NSString *baseFile = [NSString stringWithFormat:@"%@_sheets.xml", _xmlfile];
     
-    NSLog(@"BASE FILE %@", baseFile);
     
     TBXML *_xmlMaster = [TBXML tbxmlWithXMLFile:baseFile];
     
@@ -69,6 +68,15 @@
     
     do {
         NSString *nName     = [TBXML valueOfAttributeNamed:@"name" forElement:_texture];
+        
+        
+        NSRange NghostNameRange;
+        
+        
+        NghostNameRange = [nName rangeOfString:@"ftcghost"];
+        
+        
+        if (NghostNameRange.location != NSNotFound) continue;
         
         
         
@@ -133,7 +141,16 @@
         do {
         
             NSString *partName = [TBXML valueOfAttributeNamed:@"name" forElement:_part];
-                       
+            
+            NSRange ghostNameRange;
+            
+            
+            ghostNameRange = [partName rangeOfString:@"ftcghost"];
+            
+            
+            if (ghostNameRange.location != NSNotFound) continue;
+            
+                 
             NSMutableArray *__partFrames = [[NSMutableArray alloc] init];
             
             TBXMLElement *_frameInfo = [TBXML childElementNamed:@"Frame" parentElement:_part];

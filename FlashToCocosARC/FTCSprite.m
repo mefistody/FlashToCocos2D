@@ -12,24 +12,16 @@
 @implementation FTCSprite
 
 @synthesize name;
-@synthesize ignorePosition, ignoreRotation;
+@synthesize ignorePosition, ignoreRotation, ignoreScale;
 @synthesize animationsArr;
 
--(void) dealloc
-{
-    debugDrawingNode = nil;
-    currentCharacter = nil;
-    currentAnimationInfo = nil;
-    name = nil;
-    animationsArr = nil;
-}
 
 
 - (id)init
 {
     self = [super init];
     if (self) {
-        // Initialization code here.
+
         NSMutableDictionary *__animations = [[NSMutableDictionary alloc] init];
         [self setAnimationsArr:__animations];
    
@@ -57,7 +49,12 @@
         [self setPosition:CGPointMake(_frameInfo.x, _frameInfo.y)];   
     
     if (!ignoreRotation) 
-        [self setRotation:_frameInfo.rotation];        
+        [self setRotation:_frameInfo.rotation];   
+    
+    if (!ignoreScale) {
+        if (_frameInfo.scaleX!=0)   [self setScaleX:_frameInfo.scaleX];
+        if (_frameInfo.scaleY!=0)   [self setScaleY:_frameInfo.scaleY];
+    }
 }
 
 

@@ -23,10 +23,9 @@
 {
     self = [super init];
     if (self) {
-        // Initialization code here.
+
         NSMutableArray *__eventsInfo = [[NSMutableArray alloc] init];
-        [self setEventsInfo:__eventsInfo];
-    
+        [self setEventsInfo:__eventsInfo];    
     }
     
     return self;
